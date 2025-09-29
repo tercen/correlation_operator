@@ -34,20 +34,20 @@
         "metaFactors": [
           {
             "kind": "MetaFactor",
-            "name": "X",
+            "name": "X value",
             "type": "numeric",
-            "description": "Value of one group of data.",
-            "ontologyMapping": "x-axis",
+            "description": "Values of the first variable.",
+            "ontologyMapping": "measurement",
             "crosstabMapping": "x",
             "cardinality": "1",
             "factors": []
           },
           {
             "kind": "MetaFactor",
-            "name": "Y",
+            "name": "Y value",
             "type": "numeric",
-            "description": "Value of the other group of data.",
-            "ontologyMapping": "y-axis",
+            "description": "Values of the second variable.",
+            "ontologyMapping": "measurement",
             "crosstabMapping": "y",
             "cardinality": "1",
             "factors": []
