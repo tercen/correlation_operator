@@ -8,8 +8,10 @@ This operator computes Pearson's correlation of two input sets of data per cell.
 
 Input|.
 ---|---
-`x-axis`  | value of one group of data
-`y-axis` | value of other group of data
+`y-axis` | value of the first variable
+`x-axis`  | value of the second variable
+`row`  | optional, row factor for stratification
+`column`  | optional, column factor for stratification
 
 Settings|.
 ---|---
