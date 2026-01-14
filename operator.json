@@ -34,23 +34,50 @@
         "metaFactors": [
           {
             "kind": "MetaFactor",
-            "name": "X value",
-            "type": "numeric",
-            "description": "Values of the first variable.",
-            "ontologyMapping": "measurement",
-            "crosstabMapping": "x",
-            "cardinality": "1",
+            "name": "Row",
+            "type": "",
+            "description": "Optional row factor for stratification",
+            "ontologyMapping": "row",
+            "crosstabMapping": "row",
+            "cardinality": "0..n",
             "factors": []
           },
           {
             "kind": "MetaFactor",
-            "name": "Y value",
-            "type": "numeric",
-            "description": "Values of the second variable.",
-            "ontologyMapping": "measurement",
-            "crosstabMapping": "y",
-            "cardinality": "1",
+            "name": "Column",
+            "type": "",
+            "description": "Optional column factor for stratification",
+            "ontologyMapping": "column",
+            "crosstabMapping": "column",
+            "cardinality": "0..n",
             "factors": []
+          }
+        ],
+        "axis": [
+          {
+            "kind": "AxisSpec",
+            "metaFactors": [
+              {
+                "kind": "MetaFactor",
+                "name": "Y value",
+                "type": "numeric",
+                "description": "Values of the first variable",
+                "ontologyMapping": "measurement",
+                "crosstabMapping": "y",
+                "cardinality": "1",
+                "factors": []
+              },
+              {
+                "kind": "MetaFactor",
+                "name": "X value",
+                "type": "numeric",
+                "description": "Values of the second variable",
+                "ontologyMapping": "measurement",
+                "crosstabMapping": "x",
+                "cardinality": "1",
+                "factors": []
+              }
+            ]
           }
         ]
       }
