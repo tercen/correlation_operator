@@ -81,6 +81,43 @@
           }
         ]
       }
+    ],
+    "outputSpecsV2": [
+      {
+        "kind": "OperatorJoinSpec",
+        "joinOperators": [
+          {
+            "kind": "JoinOperator",
+            "joinType": "left",
+            "leftPair": {
+              "kind": "ColumnPair",
+              "lColumns": [
+                "Row",
+                "Column"
+              ],
+              "rColumns": [
+                "Row",
+                "Column"
+              ]
+            },
+            "rightRelation": {
+              "kind": "TableRelation",
+              "attributes": [
+                {
+                  "kind": "Attribute",
+                  "name": "cor_coef",
+                  "type": "double"
+                },
+                {
+                  "kind": "Attribute",
+                  "name": "p_value",
+                  "type": "double"
+                }
+              ]
+            }
+          }
+        ]
+      }
     ]
   }
 }
