@@ -60,7 +60,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "Y value",
-                "type": "numeric",
+                "type": "double",
                 "description": "Values of the first variable",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
@@ -70,7 +70,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "X value",
-                "type": "numeric",
+                "type": "double",
                 "description": "Values of the second variable",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "x",
